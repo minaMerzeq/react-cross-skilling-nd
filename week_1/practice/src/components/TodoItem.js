@@ -14,7 +14,8 @@ class TodoItem extends React.Component {
             1. Add a checkbox to the todo item
             2. The checkbox should be checked if the todo is completed (completed === true)
         */}
-        <div>{completed.toString()}</div>
+        {/* <div>{completed.toString()}</div> */}
+        <input type="checkbox" checked={completed}/>
       </li>
     );
   }
