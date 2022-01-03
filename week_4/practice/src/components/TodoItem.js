@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FiEdit2, FiX } from 'react-icons/fi';
 import Priority from '../constants/priority';
 import '../styles/todo.css';
